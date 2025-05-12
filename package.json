@@ -1,1 +1,16 @@
-{}
+{
+  "name": "mathgpt-proxy",
+  "version": "1.0.0",
+  "description": "A proxy for accessing math-gpt.org using shared cookies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "YourNameHere",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
+  }
+}
+
